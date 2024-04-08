@@ -1,0 +1,166 @@
+html {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    background-image: url('background.svg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    min-width: 200px;
+    max-width: 1024px;
+    margin: auto;
+  }
+  
+  section,
+  div {
+    margin: 20px 0;
+  }
+  
+  h1 {
+    font-family: "Anton", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 80px;
+    margin: 0px 0;
+    margin-top: -10px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin: 5px 0;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin: 5px 0;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  ul {
+    padding-left: 10px;
+    margin: 12px 0;
+  }
+  
+  li {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .job {
+    margin-bottom: 20px;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .pioneer {
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 330px) {
+    body {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 58px;
+      margin-top: -20px;
+    }
+  
+    h2 {
+      font-size: 26px;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  
+    .pioneer {
+      font-size: 18px;
+    }
+  
+    ul {
+      padding-left: 0;
+      padding-right: 0;
+      margin-top: 0px;
+    }
+  
+    li {
+      list-style-type: none;
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 800px) {
+    body {
+      padding: 30px;
+    }
+  
+    h1 {
+      font-size: 120px;
+      text-align: center;
+    }
+  
+    h2 {
+      font-size: 48px;
+      text-align: center;
+      margin-top: 30px;
+    }
+  
+    h3 {
+      font-size: 32px;
+    }
+  
+    p {
+      font-size: 24px;
+      text-align: center;
+      margin-top: 0px;
+    }
+  
+    .pioneer {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    li {
+      font-size: 20px;
+      padding: 5px;
+      line-height: 1.2;
+    }
+  
+    ul {
+      padding-left: 20px;
+    }
+  
+    .special-text {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 0px;
+    }
+  
+    .special-text p {
+      margin: 0 10px;
+    }
+  
+    .linkedin {
+      margin-top: -10px;
+    }
+  }
+  
